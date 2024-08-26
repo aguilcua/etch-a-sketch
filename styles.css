@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.gameContainer {
+    border: 1px solid #000;
+    display: grid;
+}
+
+.grid {
+    border: 1px solid black; 
+    box-sizing: border-box;
+    background-color: #fff; 
+    transition: background-color 0.3s; 
+}
+
+.grid.hovered {
+    background-color: #000; /* Background color after hover */
+}
+
+
